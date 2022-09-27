@@ -1,0 +1,55 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.navbar {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  box-shadow:0px 15px 10px -15px #111;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+div h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    -2px -2px 0 black, 2px 0px 0 black, 0px 2px 0 black, -2px 0px 0 black,
+    0px -2px 0 black;
+}
+body > h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+}
+form {
+  width: 30%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 35px);
+  gap: 10px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input,
+select{
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+body>select{
+  float:right;
+  appearance:initial;
+  margin: 20px;
+}
+select>option :hover{
+  background-color: red;
+}
